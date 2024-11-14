@@ -1,0 +1,187 @@
+#background1 {
+    background-image: url(resources/abhyas\ background\ cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 43rem;
+}
+
+#home_contents_flex {
+    display: flex;
+    width: 54rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 3rem;
+
+}
+
+#services_div,
+#training_div {
+    height: 15rem;
+    width: 25rem;
+
+}
+
+#services_img {
+    height: 15rem;
+    width: 25rem;
+}
+
+#training_img {
+    height: 15rem;
+    width: 25rem;
+}
+
+#contact_img {
+    height: 8rem;
+    width: 25rem;
+}
+
+#contactus_div {
+    height: 8rem;
+    width: 25rem;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 25rem;
+}
+
+#whatsapp_icon,
+#instagram_icon,
+#facebook_icon,
+#twitter_icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+@media only screen and (max-width:866px) {
+
+    #background1 {
+        height: fit-content;
+    }
+
+    #home_contents_flex {
+        width: 43rem;
+        height: 20rem;
+        row-gap: 2rem;
+    }
+
+    #services_div,
+    #training_div {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    #services_img {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    #training_img {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    #contact_img {
+        height: 7rem;
+        width: 22rem;
+    }
+
+    #contactus_div {
+        height: 7rem;
+        width: 22rem;
+        margin-left: 0;
+    }
+
+    #icons {
+        padding-bottom: 1rem;
+    }
+
+    #whatsapp_icon,
+    #instagram_icon,
+    #facebook_icon,
+    #twitter_icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+}
+
+@media only screen and (max-width:710px) {
+    #background1 {
+        width: fit-content;
+       height: 60rem;
+      
+    }
+
+    #home_contents_flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 3rem;
+        row-gap: 3rem;
+    }
+    #services_div,
+    #training_div {
+        height: 15rem;
+        width: 25rem;
+    }
+
+    #services_img {
+        height: 15rem;
+        width: 25rem;
+    }
+
+    #training_img {
+        height: 15rem;
+        width: 25rem;
+    }
+    #contact_img {
+        height: 8rem;
+        width: 25rem;
+    }
+
+    #contactus_div {
+        height: 8rem;
+        width: 25rem;
+      margin-left: 0;
+    }
+    #icons {
+        width: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        float: right;
+        position: fixed;
+        right: 0.5rem;
+        top: 17rem;  
+    }
+    #whatsapp_icon,
+    #instagram_icon,
+    #facebook_icon,
+    #twitter_icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+@media only screen and (max-width:430px){
+    #background1 {
+        width: fit-content;
+       height: 62rem;
+    }
+}
+@media only screen and (max-width:410px){
+    #background1 {
+        width: fit-content;
+       height: 63rem;
+    }
+}
+@media only screen and (max-width:400px){
+    #background1 {
+       width: fit-content;
+       height: 172vh;
+    }
+}
